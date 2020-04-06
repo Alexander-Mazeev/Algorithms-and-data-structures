@@ -88,8 +88,6 @@ class CompanyMain{
         list.add(new Company(4, 1));
         list.add(new Company(5, 0));
         list.add(new Company(6, 5));
-        list.add(new Company(7, 0));
-        //list.add(new Company(8, 3));
 
         for (Company obj: list) {
             add(obj);

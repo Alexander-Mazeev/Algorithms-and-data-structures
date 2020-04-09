@@ -8,8 +8,11 @@ import java.util.EmptyStackException;
 
 public class Deque<Item> extends Queue {
 
+    private int tmpEnd = 0;
+
     public Deque(int capacity) {
         super(capacity);
+        end = list.length - 1;
     }
 
     public Deque() {
@@ -21,8 +24,8 @@ public class Deque<Item> extends Queue {
             throw new StackOverflowError();
         }
         size++;
-        list[end] = item;
-        end = nextIndex(end);
+        list[begin] = item;
+        begin = nextIndex(begin);
     }
 
     public void insertRight(Item item) {
@@ -30,33 +33,38 @@ public class Deque<Item> extends Queue {
             throw new StackOverflowError();
         }
         size++;
-        int pInd = prevIndex();
-        list[pInd] = item;
-        end = nextIndex(end);
+        list[end] = item;
+        end = prevIndex(end);
     }
 
-    private int prevIndex() {
+    private int prevIndex(int index) {
         if (list.length == size) {
             throw new StackOverflowError();
         }
-        Item[] tempArr = (Item[]) new Object[list.length];
-        System.arraycopy(list, 0, tempArr, 1, size);
-        list = tempArr;
-        list[0] = null;
-        return 0;
+        return --index;
     }
 
     public Item removeLeft() {
         Item value = (Item) peekFront();
         size--;
         list[begin] = null;
-        begin = nextIndex(begin);
         return value;
+    }
+    @Override
+    protected Item peekFront() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        if (size == list.length ){
+            begin = 0;
+        }
+        else ++begin;
+        return (Item) list[begin];
     }
 
     public Item removeRight() {
         Item value = peekEnd();
-        list[size] = null;
+        list[tmpEnd] = null;
         size--;
         return value;
     }
@@ -65,7 +73,14 @@ public class Deque<Item> extends Queue {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
-        return (Item) list[size];
+        if (tmpEnd == 0){
+            tmpEnd = list.length - 1;
+            end = 1;
+        }
+        else tmpEnd = list.length - end;
+        Item tmpItem = (Item) list[tmpEnd];
+        end ++;
+        return tmpItem ;
     }
 
     public void printDeque() {

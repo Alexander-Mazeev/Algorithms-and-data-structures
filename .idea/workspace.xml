@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f6c8ac-7ebd-480b-8bf8-fe79fe6bac98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Game/Assasin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Game/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Game/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Game/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LinkInterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LinkIteratorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson4/StackList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/BackpackTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Exponentiation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Game/Assasin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Game/BattleWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Game/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Game/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Game/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/Game/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/MyArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +27,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson3" />
+        <entry key="$PROJECT_DIR$" value="Lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,20 +49,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Lesson4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Lesson5" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexander\Documents\GitHub\Algorithms-and-data-structures\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexander\Documents\GitHub\Algorithms-and-data-structures\src\main\java\Lesson5" />
+      <recent name="C:\Users\Alexander\Documents\GitHub\Algorithms-and-data-structures\src\main\java\Lesson5\Game" />
       <recent name="C:\Users\Alexander\Documents\GitHub\Algorithms-and-data-structures\src\main\java\Lesson4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Game">
-    <configuration name="CompanyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.DOP.CompanyMain" />
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson5.BinarySearch" />
       <module name="Algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2.DOP.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.Game.Game" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson5.Game.MainApp" />
       <module name="Algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson4.Game.*" />
+          <option name="PATTERN" value="Lesson5.Game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkIteratorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.LinkIteratorApp" />
+    <configuration name="MainBackpackTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson5.MainBackpackTask" />
       <module name="Algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.MainDeque" />
+    <configuration name="MainBinaryFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson5.MainBinaryFind" />
       <module name="Algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordsAround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.WordsAround" />
+    <configuration name="MyArrApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson5.MyArrApp" />
       <module name="Algorithms-and-data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.LinkIteratorApp" />
-        <item itemvalue="Application.MainDeque" />
-        <item itemvalue="Application.WordsAround" />
-        <item itemvalue="Application.CompanyMain" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.MyArrApp" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.MainBinaryFind" />
+        <item itemvalue="Application.MainBackpackTask" />
       </list>
     </recent_temporary>
   </component>
@@ -171,71 +177,91 @@
       <option name="project" value="LOCAL" />
       <updated>1586437349872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson4">
+      <created>1586778152646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586778152646</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson2" />
     <MESSAGE value="Lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3" />
+    <MESSAGE value="Lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="15" width="816" height="723" key="#Intentions" timestamp="1585830813429">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="15" width="816" height="723" key="#Intentions/0.0.1366.738@0.0.1366.738" timestamp="1585830813429" />
-    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1586028249999">
+    <state x="137" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587035726259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586028249999" />
+    <state x="137" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1587035726259" />
+    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1586940392796">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586940392796" />
+    <state x="284" y="298" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586885310219">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="284" y="298" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1586885310219" />
     <state x="438" y="78" key="#xdebugger.evaluate" timestamp="1586777626181">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="438" y="78" key="#xdebugger.evaluate/0.0.1366.738@0.0.1366.738" timestamp="1586777626181" />
-    <state x="222" y="0" key="CommitChangelistDialog2" timestamp="1586437345269">
+    <state x="222" y="0" key="CommitChangelistDialog2" timestamp="1586778148449">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="222" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586437345269" />
+    <state x="222" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586778148449" />
     <state width="390" height="466" key="DebuggerActiveHint" timestamp="1586157538367">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="390" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1586157538367" />
+    <state x="463" y="113" key="FileChooserDialogImpl" timestamp="1587035978325">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="113" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1587035978325" />
     <state x="509" y="286" key="Github.CreateGistDialog" timestamp="1585735810281">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="509" y="286" key="Github.CreateGistDialog/0.0.1366.738@0.0.1366.738" timestamp="1585735810281" />
-    <state width="1323" height="217" key="GridCell.Tab.0.bottom" timestamp="1586778059009">
+    <state width="1323" height="113" key="GridCell.Tab.0.bottom" timestamp="1587034578369">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586778059009" />
-    <state width="1323" height="217" key="GridCell.Tab.0.center" timestamp="1586778059009">
+    <state width="1323" height="113" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587034578369" />
+    <state width="1323" height="113" key="GridCell.Tab.0.center" timestamp="1587034578368">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586778059009" />
-    <state width="1323" height="217" key="GridCell.Tab.0.left" timestamp="1586778059008">
+    <state width="1323" height="113" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587034578368" />
+    <state width="1323" height="113" key="GridCell.Tab.0.left" timestamp="1587034578368">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586778059008" />
-    <state width="1323" height="217" key="GridCell.Tab.0.right" timestamp="1586778059009">
+    <state width="1323" height="113" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587034578368" />
+    <state width="1323" height="113" key="GridCell.Tab.0.right" timestamp="1587034578368">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586778059009" />
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1586778059010">
+    <state width="1323" height="113" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587034578368" />
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1587016699588">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586778059010" />
-    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1586778059009">
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587016699588" />
+    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1587016699587">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586778059009" />
-    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1586778059009">
+    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1587016699587" />
+    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1587016699587">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586778059009" />
-    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1586778059009">
+    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1587016699587" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1587016699588">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586778059009" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1587016699588" />
     <state x="0" y="494" width="1035" height="172" key="GridCell.Tab.2.bottom" timestamp="1586176583759">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -272,14 +298,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="213" y="27" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1586257052850" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586437357643">
+    <state x="186" y="14" key="SettingsEditor" timestamp="1587035981749">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586437357643" />
-    <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1586760959893">
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1587035981749" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586778163829">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586760959893" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586778163829" />
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1587028238452">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1587028238452" />
+    <state x="259" y="70" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1587033517735">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="259" y="70" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1366.738@0.0.1366.738" timestamp="1587033517735" />
     <state x="-133" y="494" width="1051" height="239" key="dock-window-1" timestamp="1586178865089">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -334,6 +368,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Lesson4/Game/Doctor.java</url>
           <line>5</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson5/BackpackTask.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

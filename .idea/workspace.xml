@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f6c8ac-7ebd-480b-8bf8-fe79fe6bac98" name="Default Changelist" comment="" />
+    <list default="true" id="18f6c8ac-7ebd-480b-8bf8-fe79fe6bac98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +12,23 @@
   <component name="FavoritesManager">
     <favorites_list name="Algorithms-and-data-structures" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Zw2ABlyMHl4PdwE3w25sMZLdae" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -18,6 +36,41 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.CompanyMain">
+    <configuration name="ArryaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.ArryaMain" />
+      <module name="Algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.DOP.CompanyMain" />
+      <module name="Algorithms-and-data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.DOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CompanyMain" />
+        <item itemvalue="Application.ArryaMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,16 +83,100 @@
       <option name="presentableId" value="Default" />
       <updated>1585735689697</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lesson2">
+      <created>1586167119332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586167119333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson2" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="15" width="816" height="723" key="#Intentions" timestamp="1585830813429">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="15" width="816" height="723" key="#Intentions/0.0.1366.738@0.0.1366.738" timestamp="1585830813429" />
+    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1586028249999">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1586028249999" />
+    <state x="222" y="0" key="CommitChangelistDialog2" timestamp="1586167112950">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="222" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1586167112950" />
+    <state width="390" height="466" key="DebuggerActiveHint" timestamp="1586157538367">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="390" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1586157538367" />
     <state x="509" y="286" key="Github.CreateGistDialog" timestamp="1585735810281">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="509" y="286" key="Github.CreateGistDialog/0.0.1366.738@0.0.1366.738" timestamp="1585735810281" />
-    <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1585735699511">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1586167054718">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585735699511" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586167054718" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1586167054718">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586167054718" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1586167054717">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586167054717" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1586167054718">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586167054718" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1586165192532">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586165192532" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1586165192532">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586165192532" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1586165192531">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586165192531" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1586165192532">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586165192532" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1586167135862">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1586167135862" />
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1586155498433">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586155498433" />
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586164825220">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="391" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1586164825220" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Lesson2/DOP/Company.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="resultList" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

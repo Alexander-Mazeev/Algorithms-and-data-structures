@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lesson5.Game.BattleWindow">
+<HBox alignment="TOP_CENTER" layoutY="62.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="138.0" prefWidth="598.0">
+      <children>
+
+         <VBox prefHeight="200.0" prefWidth="174.0">
+
+             <children>
+                 <ChoiceBox prefWidth="150.0" />
+               <ListView prefHeight="113.0" prefWidth="200.0" />
+
+            </children>
+         </VBox>
+         <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Add" />
+         <SplitPane prefHeight="138.0" prefWidth="30.0" />
+          <VBox prefHeight="200.0" prefWidth="174.0">
+              <children>
+                  <ChoiceBox prefWidth="150.0" />
+                  <ListView prefHeight="113.0" prefWidth="201.0" />
+              </children>
+
+          </VBox>
+         <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Add" />
+
+      </children>
+</HBox>
+
+   <HBox layoutY="216.0" prefHeight="177.0" prefWidth="598.0">
+      <VBox prefHeight="177.0" prefWidth="78.0">
+          <children>
+          <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="100" text="Start" />
+          </children>
+          <children>
+          <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="100" text="Reset" />
+          </children>
+      </VBox>
+
+         <ListView prefHeight="177.0" prefWidth="494.0" />
+      </HBox>
+
+</VBox>
